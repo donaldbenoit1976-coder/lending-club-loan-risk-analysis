@@ -1,3 +1,8 @@
+![Project Banner](images/project_banner.png)
+![SQL](https://img.shields.io/badge/SQL-BigQuery-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Public-orange)
+![Status](https://img.shields.io/badge/Project-Complete-success)
+![License](https://img.shields.io/badge/Portfolio-Public-brightgreen)
 # Lending Club Loan Portfolio Risk Analysis
 
 ## End-to-End Data Analytics Project
