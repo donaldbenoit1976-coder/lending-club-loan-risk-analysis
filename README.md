@@ -93,44 +93,99 @@ Three executive dashboards were created to communicate the analytical findings.
 
 ### Dashboard 1 – Executive Portfolio Overview
 
-**Business Question**
+**Business Question:** How has the Lending Club portfolio performed over time?
 
-How has the Lending Club portfolio performed over time?
+![Executive Portfolio Overview](dashboards/dashboard_1_portfolio_overview.png)
 
-Key metrics include:
+**Key Insights**
 
-- Total Loans
-- Total Funded Amount
-- Average Interest Rate
-- Portfolio Bad Loan Rate
-- Annual Funding Trend
-- Loan Status Distribution
+- Portfolio performance summary
+- Total funded amount and loan volume
+- Good vs. Bad loan distribution
+- Annual lending trends
 
 ---
 
 ### Dashboard 2 – Credit Risk Analysis
 
-**Business Question**
+**Business Question:** Which borrower characteristics present the greatest credit risk?
 
-Which borrower characteristics are associated with the highest credit risk?
+![Credit Risk Analysis](dashboards/dashboard_2_credit_risk.png)
 
-Analysis includes:
+**Key Insights**
 
-- Credit Grade
-- FICO Score
-- Income Level
-- Portfolio Funding Exposure
+- Default rates by credit grade
+- Portfolio funding exposure
+- FICO score analysis
+- Income risk segmentation
 
 ---
 
 ### Dashboard 3 – Geographic & Portfolio Insights
 
-**Business Question**
+**Business Question:** Where is portfolio risk concentrated, and which loan purposes contribute the greatest risk?
 
-Where is portfolio risk concentrated, and which loan purposes contribute the most risk?
+![Geographic & Portfolio Insights](dashboards/dashboard_3_geographic_insights.png)
 
-Analysis includes:
+**Key Insights**
 
-- State Risk Map
-- Highest Risk States
-- Loan Purpose Analysis
+- Geographic risk distribution
+- Highest-risk states
+- Loan purpose analysis
+- Regional portfolio exposure
+---
+
+# Key Findings
+
+The analysis identified several important patterns across Lending Club's loan portfolio:
+
+- Credit grade is a strong predictor of loan performance, with default rates increasing consistently from Grade A through Grade G.
+- FICO score demonstrated a stronger relationship with default risk than borrower income.
+- Grade C represents the largest concentration of lending exposure and offers the greatest opportunity to reduce portfolio losses.
+- Geographic analysis identified meaningful regional variation in loan performance.
+- Debt Consolidation loans account for the largest share of lending volume, while Small Business loans exhibited the highest default rate among major loan categories.
+
+---
+# Business Recommendations
+
+Based on the analysis, the following recommendations were developed:
+
+1. Strengthen underwriting standards for higher-risk credit grades.
+2. Continue prioritizing FICO score as a primary risk indicator.
+3. Monitor Debt Consolidation loans due to their significant portfolio exposure.
+4. Incorporate geographic risk into portfolio monitoring.
+5. Explore predictive machine learning models to enhance future underwriting decisions.
+
+---
+# Skills Demonstrated
+
+- SQL Query Development
+- Google BigQuery
+- Data Cleaning & Validation
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Tableau Dashboard Development
+- Data Visualization
+- Business Intelligence
+- Executive Reporting
+- Data Storytelling
+
+---
+# Future Enhancements
+
+Potential future improvements include:
+
+- Predictive machine learning models for loan default probability
+- Time-series forecasting
+- Interactive cloud dashboards
+- Automated reporting pipelines
+- Python-based analytics and visualization
+
+---
+
+## Connect With Me
+
+- **LinkedIn:** *(www.linkedin.com/in/donald-benoit-960700413)*
+- **Tableau Public:** *(https://public.tableau.com/app/profile/donald.benoit/vizzes)*
+
+Thank you for taking the time to review this project.
