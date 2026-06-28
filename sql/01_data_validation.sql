@@ -106,6 +106,40 @@ SELECT
 
 FROM
     `loan-lending-analytics.lending_club.accepted_loans`;
+```sql
+-- ==========================================================
+-- FICO Range Validation
+-- ==========================================================
+-- Confirms the minimum and maximum FICO scores present in
+-- the dataset before creating FICO score bands.
+-- ==========================================================
+
+SELECT
+    MIN(fico_range_low) AS min_fico,
+    MAX(fico_range_low) AS max_fico
+
+FROM
+    `loan-lending-analytics.lending_club.accepted_loans`;
+
+/*
+============================================================
+
+Expected Result
+
+Returns the minimum and maximum borrower FICO scores
+contained in the Lending Club dataset.
+
+Business Insight
+
+The observed FICO score range confirms that the selected
+credit score bands (<600 through 800+) appropriately cover
+the entire borrower population without leaving gaps in the
+analysis.
+
+============================================================
+*/
+```
+
 -- ==========================================================
 -- Dataset Summary
 -- ==========================================================
