@@ -2,7 +2,7 @@
 ============================================================
 Project: Lending Club Loan Portfolio Risk Analysis
 
-File: 02_executive_kpis.sql
+File: 03_executive_kpis.sql
 
 Author: Donnie Benoit
 
