@@ -2,7 +2,7 @@
 /*
 ============================================================
 Project: Lending Club Loan Portfolio Risk Analysis
-File: 07_annual_trend_analysis.sql
+File: 05_annual_trend_analysis.sql
 
 Author: Donnie Benoit
 
