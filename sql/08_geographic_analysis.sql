@@ -2,7 +2,7 @@
 /*
 ============================================================
 Project: Lending Club Loan Portfolio Risk Analysis
-File: 09_geographic_analysis.sql
+File: 08_geographic_analysis.sql
 
 Author: Donnie Benoit
 
