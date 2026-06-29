@@ -2,7 +2,7 @@
 /*
 ============================================================
 Project: Lending Club Loan Portfolio Risk Analysis
-File: 03_loan_status_analysis.sql
+File: 04_loan_status_analysis.sql
 
 Author: Donnie Benoit
 
