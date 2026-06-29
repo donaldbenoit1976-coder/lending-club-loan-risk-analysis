@@ -2,7 +2,7 @@
 /*
 ============================================================
 Project: Lending Club Loan Portfolio Risk Analysis
-File: 05_fico_analysis.sql
+File: 07_fico_analysis.sql
 
 Author: Donnie Benoit
 
